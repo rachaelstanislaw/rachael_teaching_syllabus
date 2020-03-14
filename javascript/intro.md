@@ -1,7 +1,8 @@
 # JavaScript Introduction
+Do this lesson in Chrome console. Intro node.js after this.
 
 ## Overview
-- JavaScript is a versatile and powerful scripting language used to make a webpage dynamic
+- JavaScript is a versatile and powerful scripting language used to make dynamic webpages
 
 ## Learning Objectives
 - Interacting with JavaScript's primitive data types
@@ -16,17 +17,12 @@
 - modulo operator
 - bang operator
 
-## Useful Commands
-- $ node
-- control c
-
-## Additional Resources
-- <a href="https://www.w3schools.com/js/js_datatypes.asp" target="blank">JavaScript Data Types</a>
-- <a href="https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm" target="blank">JavaScript Built-in Functions Organized By Data Type</a>
+## Chrome console
+* Open up any website in chrome and inspect. Show the HTML markup. Then open up the console log.
 
 ## Data Types
 
-JavaScript takes in information in a very specific way. JS is a loosely typed language, meaning the programmer does not have to declare the type of data contained in a variable.
+JS is a loosely typed language. Meaning the programmer does not have to declare the type of data contained in a variable.
 
 ## Primitive Data Types
 
@@ -38,14 +34,16 @@ The basic data types are:
 - Null
 - Symbol
 
+For now, we will focus on numbers, strings, and booleans.
+
 
 ### Numbers
 
-Numbers can be integers (positive, negative or zero) as well as fractions of a whole number written as a decimal called a float.
+Numbers can be integers (positive, negative or zero) as well as fractions of a whole number. Fractions are written as a decimal and are called a float.
 
 ##### Arithmetic
 
-We can perform mathematical calculations with numbers in JavaScript.
+We can perform mathematical calculations with numbers in JavaScript in the Chrome console.
 
 ```JavaScript
 1           -> 1
@@ -77,11 +75,11 @@ exponents
 ```
 ### Strings
 
-We can store words or other characters in JavaScript by surrounding characters with quotation marks.
+We can store words or other characters in JavaScript by surrounding characters with quotation marks. Anything can be written as a string if it is surrounded by quotation marks. Single or double quotes don't matter in JS, as long as you are consistent throughout your program. As a best practice, consider sticking to double quotes for now.
 
 ##### Concatenation
 
-When we use the + on strings it combines the strings in a process called concatenation.
+When we but a + between two strings, it combines them in a process called concatenation.
 
 ```
 "hell" + "o"        -> "hello"
@@ -100,14 +98,16 @@ The JavaScript language has some pre-made functionality that can be used on the 
 "hello".includes("he")  -> true
 ```
 
-A function is a JavaScript procedure - a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it (unless it is built-in).
+A function is a JavaScript procedure - or a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it (unless it is built-in).
 
 
 JavaScript methods are actions that can be performed on objects. A JavaScript method is a property containing a function definition.
 
+Take time to look into JS built-in string methods.
+
 ### Boolean
 
-Boolean expressions in JavaScript return `true` or `false`. Even though true and false are words, they are not strings. They represent the value of true/false.
+Boolean expressions in JavaScript return `true` or `false`. Even though true and false are words, they are not strings. They represent the _value_ of true/false.
 
 ```
 true                 -> true
