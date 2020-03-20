@@ -218,7 +218,9 @@ false * 9           -> 0
 Just like in algebra, variables are used to store information. Variables must be declared and assigned a value using a single equal sign. 
 
 = assigns value
+
 == equality operator
+
 === strict equality operator
 
 I like to think of a variable as a piece of tupperware. In this example, our tupperware is labeled as "lunch".
