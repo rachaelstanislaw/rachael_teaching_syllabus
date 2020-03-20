@@ -234,7 +234,7 @@ But I don't have to pull out a whole new tupperware, I can just put my sandwich 
 var lunch = "sandwich"  -> "sandwich"
 ```
 
-Let's say I pull my tuppeware labeled "lunch" out of the fridge, but when I open it, I realize I didn't pack a lunch! My lunch in that case, is undefined.
+Let's say I pull my tuppeware labeled "lunch" out of the fridge, but when I open it, I realize I didn't pack a lunch! In that case, my "lunch" is undefined.
 
 ```
 variable declared
