@@ -187,11 +187,52 @@ Because JavaScript is a loosely typed language, it does a funky thing called typ
 true * 9            -> 9
 false * 9           -> 0
 ```
+** 5 Min Break **
+
+## Mini Challenges
+
+**Arithmetic Challenges**
+- Add 34 and 71
+- Subtract 67 from 123
+- Multiply 56 and 23
+- Divide 45 by 5
+- Calculate 5 to the power of 7
+- Find the remainder of 33/6
+
+**String Challenges**
+- Find the length of a string containing your name
+- Does your string include the letter "e"?
+
+**Boolean Challenges (return true or false)**
+- Is 34 divided by 3 greater than 67 divided by 2?
+- Does 5 evaluate to the same as "5"?
+- Does 5 strictly equal "5"?
+- Does !3 strictly equal 3?
+- Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7?
+- Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+
+** Come back together, make sure everyone understands **
 
 ## Variables
 
-Just like in algebra, variables are used to store information. Variables must be declared and assigned a value using a single equals sign.
+Just like in algebra, variables are used to store information. Variables must be declared and assigned a value using a single equal sign. 
 
+= assigns value
+== equality operator
+=== strict equality operator
+
+I like to think of a variable as a piece of tupperware. In this example, our tupperware is labeled as "lunch".
+
+```
+On Monday, I want to pack myself a salad...
+var lunch = "salad"     -> "salad"
+
+On Tuesday, I want to pack myself a sandwich...
+But I don't have to pull out a whole new tupperware, I can just put my sandwich in the same conatiner as I used yesterday.
+var lunch = "sandwich"  -> "sandwich"
+```
+
+Let's say I pull my tuppeware labeled "lunch" out of the fridge, but when I open it, I realize I didn't pack a lunch! My lunch in that case, is undefined.
 
 ```
 variable declared
@@ -226,29 +267,9 @@ c                   -> "hello world"
 We have gone over most of the building blocks that compose a JavaScript program. No matter how complex a project you work on, the pieces you use to build it will still be composed of primitive data types and manipulated as variables.
 
 
-## Challenges
+## Mini Challenges
 
 Open up a terminal and start node (type "node" to start). To exit the node console use control-c twice. Then:
-
-**Arithmetic Challenges**
-- Add 34 and 71
-- Subtract 67 from 123
-- Multiply 56 and 23
-- Divide 45 by 5
-- Calculate 5 to the power of 7
-- Find the remainder of 33/6
-
-**String Challenges**
-- Find the length of a string containing your name
-- Does your string include the letter "e"?
-
-**Boolean Challenges (return true or false)**
-- Is 34 divided by 3 greater than 67 divided by 2?
-- Does 5 evaluate to the same as "5"?
-- Does 5 strictly equal "5"?
-- Does !3 strictly equal 3?
-- Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7?
-- Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
 
 **Variables Challenges**
 - Set a variable called favNum equal to your favorite number
